@@ -3,7 +3,7 @@
 #!system=ios
 
 [Script]
-iOS15美标空气质量 = type=http-response,pattern=^https:\/\/weather-data\.apple\.com\/v2\/weather\/[\w-]+\/-?[0-9]+\.[0-9]+\/-?[0-9]+\.[0-9]+\?,requires-body=true,script-path=https://github.com/zlj6856/SS-Rule-Snippet/blob/master/Scripts/Surge/weather_aqi_us/iOS15_Weather_AQI_US.js
+iOS15美标空气质量 = type=http-response,pattern=^https:\/\/weather-data\.apple\.com\/v2\/weather\/[\w-]+\/-?[0-9]+\.[0-9]+\/-?[0-9]+\.[0-9]+\?,requires-body=true,script-path=https://raw.githubusercontent.com/zlj6856/SS-Rule-Snippet/master/Scripts/Surge/weather_aqi_us/iOS15_Weather_AQI_US.js
 
 [MITM]
 hostname = %APPEND% weather-data.apple.com
